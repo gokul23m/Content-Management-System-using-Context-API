@@ -1,0 +1,143 @@
+.AddNewProduct{
+    background-color: #f7f7fa;
+    padding: 10px 10px;
+    min-height: 91vh;
+}
+.addproduct-list{
+    padding: 10px 15px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.addproduct-list a {
+    text-decoration: underline !important;
+    border-radius: 2px !important;
+}
+.addproduct-list span{
+    color: #a5a5ac;
+}
+.prod-details{
+     text-align: left;
+     background-color: white;
+     margin: 0px 15px;
+     padding: 15px !important;
+     border-radius: 10px;
+     min-height: 75vh !important;
+}
+.prod-details h5{
+            padding-bottom: 10px;
+}
+.prod-links{
+    width: 80%;    
+}
+.prod-links .covr{
+        display: flex !important;
+        justify-content:flex-start;
+        align-items: center;
+}
+
+.prod-links a{
+     color: black !important;
+     font-size: 12px;
+     padding: 6px 12px !important;
+     font-weight: 600;
+}
+
+.prod-links li{
+    padding: 2px 0px;
+    flex-grow: unset;
+    flex-basis: unset;
+}
+.prod-row{
+     padding: 3px;
+}
+.prod-row label{
+    padding-bottom: 5px !important;
+}
+.prod-row input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(234, 228, 228);
+    padding: 5px;
+    outline: none;
+    height: 36px;
+    
+}
+.prod-row input::placeholder{
+       font-size: 14px;
+}
+.prod-row  select{
+    width: 100% !important;
+    height: 36px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.prod-row label{
+    font-size: 14px;
+}
+.prod-btns{
+    padding-right: 20px;
+    padding-top: 50px;
+}
+.prod-btns button{
+    background-color: #2476b7;
+       color: white;
+       margin: 0 4px 0 0;
+       padding: 3px 10px;
+       border-radius: 5px;
+       border: solid 0.5px #2476b7;  
+}
+
+ .covr hr{
+        border-bottom: 2px solid rgb(244, 176, 49) !important ;
+        margin-left: 0px;
+        border: none;
+       width: 100%;
+        opacity: 1;
+       margin-top: -2px;
+}
+
+@media only screen and (max-width:1300px){
+
+    .prod-links{
+        width: 70%;    
+    }
+
+}
+
+@media only screen and (max-width:1200px){
+
+    .prod-links{
+        width: 90%;    
+    }
+
+}
+
+@media only screen and (max-width:1000px){
+
+    .prod-links{
+        width: 90%;    
+    }
+}
+@media only screen and (max-width:800px){
+
+    .prod-links{
+        width: 100%;    
+    }
+}
+
+@media only screen and (max-width:700px){
+     
+      .prod-links .nav{
+         display: flex;
+         flex-direction: column;
+      }
+
+      .prod-links .nav-link{
+        width: 150px !important;
+        text-align: left;
+      }
+
+}
+
+
+

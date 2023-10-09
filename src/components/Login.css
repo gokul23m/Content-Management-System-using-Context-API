@@ -1,0 +1,48 @@
+.login{
+    padding: 35px 30px !important;
+    height: 650px !important;
+}
+.login-left  {
+           text-align: left;
+}
+.login-left p {
+          width: 80%;
+}
+.login-form{
+    padding: 29px 12px 25.5px 12.5px;
+    object-fit: contain;
+    opacity: 0.89;
+    background-color: #193360;
+}
+.login-heading h3{
+    color: #2a83c2 ;
+}
+.form-group{
+    text-align: left;
+}
+.form-control img{
+      background-color: none;
+}
+.input-group{
+    background-color: #0d4d7b !important;
+}
+.input-group{
+      border: 1px solid white;
+}
+.form-group input{
+    background-color: #0d4d7b !important;
+}
+.form-group,.form-check{
+    padding: 2% 3%;
+}
+span{
+    color: #2a83c2;
+}
+.myInput{
+    color: white !important;
+    border: none !important;
+}
+.main-content{
+    margin-top: 100px !important;
+}
+

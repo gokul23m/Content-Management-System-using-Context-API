@@ -1,0 +1,45 @@
+.profile{
+    background-color: #f7f7fa;
+    padding: 10px 30px;
+    min-height: 90vh;
+}
+.card-head{
+    background-color: #fff7d6;
+    height: 100px; 
+    padding-left: 20px;
+}
+.card-head p{
+    margin-bottom: 0px;
+}
+.profile-card{
+      background-color: white;
+      padding: 10px 20px;
+}
+.profile-card .table{
+    width: 50% !important;
+}
+.profile-list{
+    padding: 12px 0px;
+}
+.profile-list span{
+    color: #a5a5ac;
+}
+.profile-list a{
+    text-decoration: underline !important;
+}
+.prof-table td{
+    text-align: left;
+    color: #474747;
+}
+.edt-btn button{
+    background-color:  #2a83c2;
+    margin-left: 78%;
+    
+}
+.zan-img img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 35px;
+    right: 55px;
+}

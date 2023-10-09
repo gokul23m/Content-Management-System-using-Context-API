@@ -1,0 +1,86 @@
+.enquiry{
+    background-color: #f7f7fa;
+    padding: 10px 20px;
+    min-height: 90vh;
+}
+.enquiry-list{
+    padding: 10px 5px;
+}
+.enq-btn-grps{
+    padding-left: 5px;
+    padding-bottom: 30px;
+    gap: 10px;
+    align-items: center;
+}
+.enq-btn-grps .dropdown{
+    border: 1px solid rgb(168, 160, 160);
+      border-radius: 5px;
+}
+.enquiry .left-items select{
+    border: solid 0.5px #707070  !important;
+    width: 200px !important;
+    height: 30px;
+    padding-top: 2px;
+}
+
+.enq-table{
+    margin-top: 20px !important;  
+}
+.enq-table th{
+      border-bottom: none;
+      color: #495057;
+      text-align: left;
+}
+.enq-table tr{
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 1.5px 2px 0 rgba(172, 172, 172, 0.16); 
+    color: #495057;
+}
+.enq-table td{
+    text-align: left;
+}
+.enquiry-list span{
+    color: #a5a5ac;
+}
+.enq-table tr a{
+    color: blue !important;
+    text-decoration: underline !important;
+}
+.select-user{
+    border: solid 0.5px #707070  !important;
+  
+}
+.select-user a{
+    /* height: 15px; */
+    font-size: 16px;
+    padding: 0px 5px;
+    width: 200px;
+}
+.hei{
+    height: 36px;
+    border: solid 0.5px #707070 !important;
+}
+.pagination {
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: #2a83c2;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+  }

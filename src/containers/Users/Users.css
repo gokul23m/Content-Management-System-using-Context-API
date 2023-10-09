@@ -1,0 +1,61 @@
+.user-heading button{
+            background-color: #4282bd;
+            border: none;
+            color: white;
+            width: 130%;
+            border-radius: 5px;
+            padding:3px 13px 3px 13.5px ;
+}
+.user-heading input{
+         height: 36px;
+}
+.table {
+    border-collapse: separate;
+    border-spacing:0 10px;
+}
+.users{
+    background-color: #f7f7fa;
+    min-height: 90vh;
+}
+.export{
+    margin-top: 10px;
+}
+.right input{
+     border : 1px  solid rgb(234, 228, 228);
+     outline: none;
+     border-radius: 5px;
+     padding-left: 15px;
+}
+.right span{
+    color: #a5a5ac;
+}
+.right a{
+    text-decoration: underline !important;
+}
+.right p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+.user-table tr{
+       background-color: white;
+       vertical-align: middle;
+}
+
+.user-table th {
+    border: none;
+}
+.user-footer {
+    width: 100% !important;
+}
+
+.user-pad{
+    padding-left: 8px !important;
+    padding-right: 12px !important;
+}
+.left h6{
+       padding-top: 10px;
+}
+.user-drpdown{
+       width: 70px !important;
+}

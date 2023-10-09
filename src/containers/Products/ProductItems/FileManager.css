@@ -1,0 +1,29 @@
+.file-manager-form{
+      width: 62%;
+}
+.file-manager-form input{
+    width: 250px !important;
+}
+.file-manager-form select{
+    width: 300px !important;
+}
+
+@media only screen and (max-width:1200px){
+       
+         .file-manager-form{
+            display: block !important;
+         }
+         
+         .file-manager-form input{
+            width: 220px !important;
+        }
+        .file-manager-form select{
+            width: 250px !important;
+        }
+}
+
+@media only screen and (max-width:1000px){
+      .file-manager-form{
+        width: 100%;
+      }
+    }

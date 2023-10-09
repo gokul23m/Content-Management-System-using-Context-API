@@ -1,0 +1,80 @@
+.hotspot-form{
+    width: 80%;
+}
+.hotspot-form .adjust button{
+     height: 36px;
+     padding: 1px 8px;
+     width: 36px;
+}
+.hotspot-form input{
+    width: 300px !important ;
+}
+.below{
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 16px;
+    background-color: rgb(245, 216, 163);
+    padding: 5px;
+}
+.below input{
+    width: 160px !important;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.below *{
+    padding: 5px;
+}
+.below input:nth-child(1){
+    margin-right: 5px;
+}
+.below select:nth-child(1){
+    margin-right: 5px;
+}
+.below select{
+    width: 160px !important;
+    height: 25px;
+    padding-top: 0px;
+    font-size: 14px;
+}
+.inp-bg input {
+        background-color: #f7f7fa;
+}
+.inp-bg select{
+      background-color: #f7f7fa;
+}
+
+@media only screen and (max-width:1200px){
+       
+    .file-manager-form{
+       display: block !important;
+    }
+    
+    .hotspot-form input{
+       width: 220px !important;
+   }
+   .hotspot-form select{
+       width: 250px !important;
+   }
+}
+
+@media only screen and (max-width:1000px){
+ .hotspot-form{
+   width: 100%;
+ }
+}
+
+@media only screen and (max-width:1100px){
+
+    .hotspot-form input{
+        width: 200px !important;
+    }
+    .hotspot-form select{
+        width: 220px !important;
+    }
+    .below-items{
+        width: 80%;
+    }
+
+}
+

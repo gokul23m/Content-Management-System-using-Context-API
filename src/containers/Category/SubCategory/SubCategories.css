@@ -1,0 +1,109 @@
+.categories-heading{
+    padding: 10px 20px;
+}
+.categories {
+    background-color:  #f7f7fa;
+    min-height: 90vh;
+}
+/* .cont {
+    padding: 0px !important;
+} */
+.cont{
+    margin-left: 15px;
+}
+.right-gap{
+    padding-right: 0px !important;
+}
+.manage-bg{
+    background-color: rgba(42, 131, 194, 0.1);
+    padding: 20px 30px;
+    text-align: left;
+}
+.categories .add-cat{
+    text-align: left;
+    padding: 10px 10px;
+}
+.categories-table{
+          width: 80%;
+        border-collapse: separate;
+        border-spacing: 130px 20px !important;  
+        
+}
+.bg{
+    background-color: #f7f7fa !important;
+    text-align: left;
+     border: 1px solid rgb(234, 228, 228);
+     border-radius: 5px;
+     padding: 3px 3px;
+}
+
+.add{
+    height: 30px !important;
+  
+    align-items: center;
+}
+.cat-form{
+    width: 84%;
+}
+
+.view {
+    margin-top: 20px;
+}
+
+.subdata{
+    margin-bottom: 30px;
+}
+
+.subcategories-table{
+      padding-left: 20px;
+}
+.subcategories-table input{
+    width: 250px !important;
+    border-radius: 5px;
+    border: 1px solid rgb(234, 228, 228);
+    padding: 8px 8px;
+    outline: none;
+}
+.subcategories-table select{
+    width: 250px !important;
+    border-radius: 5px;
+    border: 1px solid rgb(234, 228, 228);
+    padding: 8px 8px;
+    outline: none;
+}
+
+.subcategories-table input{
+     width: 200px !important;
+}
+.subcategories-table .width-adjust{
+     width: 120px !important;
+}
+
+.subdata {
+    width: 75%;
+}
+
+.subdata .bg-1{
+    width: 200px;
+}
+.subdata .bg-2{
+    width:250px !important;
+}
+.subdata .bg-3{
+    width: 120px !important;
+}
+
+.categories-heading span{
+    color: #a5a5ac;
+}
+.categories-heading a{
+    text-decoration: underline !important;
+}
+
+
+.data div {
+      vertical-align: middle;
+}
+/* .bg-3{
+    margin-left: -10px !important;
+} */

@@ -1,0 +1,15 @@
+.mediaList .css-i4bv87-MuiSvgIcon-root{
+      color: rgba(229, 22, 22, 0.615);
+      font-size: 4rem;
+}
+.media-column{
+      border: 1px solid #f7f7f7;
+      padding: 10px 5px;
+      box-shadow: 0 1.5px 2px 0 rgba(172, 172, 172, 0.16);  
+
+}
+.mediaList .row{
+     justify-content: space-around;
+     margin-bottom: 30px;
+}
+

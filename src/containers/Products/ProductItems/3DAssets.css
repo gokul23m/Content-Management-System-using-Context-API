@@ -1,0 +1,37 @@
+.assets-form{
+    width: 70%;
+}
+.assets-form input{
+     width: 250px;
+}
+
+@media only screen and (max-width:1200px){
+       
+    .file-manager-form{
+       display: block !important;
+    }
+    
+    .assets-form .main input{
+       width: 220px !important;
+   }
+   .assets-form .main select{
+       width: 250px !important;
+   }
+}
+
+@media only screen and (max-width:1000px){
+ .assets-form{
+   width: 100%;
+ }
+}
+
+@media only screen and (max-width:700px){
+
+    .assets-form{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+    }
+}

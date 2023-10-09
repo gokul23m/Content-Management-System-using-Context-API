@@ -1,0 +1,124 @@
+.list-group-item{
+     background-color: black !important;
+}
+.list-group img {
+    background-color: white !important;
+}
+.list-group-item {
+     text-align: left;
+     border: none !important;
+      width: 100%;
+      padding: 8px 0px;
+}
+.list-group-item span {
+    margin-left: 20px;
+     font-size: 13px;
+    color: white;
+}
+a{
+    text-decoration: none !important;
+}
+/* .leftNav{
+     height: 100% !important;
+} */
+.nav-column{
+    background-color: black;
+    height: 100vh
+}
+
+.logo{
+    margin-top: 0px !important;
+}
+.list-group{
+         margin-top: 20px !important;
+
+}
+.navbar{
+       align-items: start !important;
+       overflow: hidden;
+}
+.logo{
+    margin-bottom: 40px !important;
+}
+/* .hoving-elem :hover{
+        background-color: rgba(255, 255, 255, 0.2) !important;
+        border-radius: 8px;
+} */
+/* .hoving-elem:hover .list-group-item  {
+            pointer-events: none !important;
+} */
+.hoving-elem:active{
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border-radius: 8px;
+}
+.hoving-elem{
+    width: 100% !important;
+    
+}
+.col{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+i{
+    color: white;
+}
+.top-nav{
+      padding-top: 10px;
+      padding-bottom: 10px;
+}
+.row{
+    margin-right: 0px !important;
+}
+.nav-width{
+     width: 158px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding:4px 6px;
+}
+.zandya{
+      border: none !important;
+      margin-left: 10px;
+      width: 100px !important;
+      margin-right: 5px;
+     
+}
+.navbar{
+     position: fixed !important;
+     width: 15%;
+     top: 0;
+     left: 0;
+}
+.leftNav{
+    position: relative;
+    width: 100%;
+}
+
+.contnt{
+    width: 85%;
+    margin-left:17%;
+    
+}
+.top-nav{
+       position: sticky;    
+      height: 10vh;
+}
+
+
+ @media only screen and (max-width:767px){
+      .nav-column{
+        height:calc(100vh - 90%);
+      }
+      .list-group{
+        align-items: flex-start !important   ;
+        
+   }
+   .contnt{
+       margin-left: 0%;
+   }
+} 
+
+
+
+
+

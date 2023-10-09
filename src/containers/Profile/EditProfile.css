@@ -1,0 +1,16 @@
+ label{
+     align-items: start;
+}
+.edit-form div{
+    padding: 5px;
+}
+.adjustinput{
+     margin-left: 80px;
+}
+.EditProfile{
+    margin: 10px 10px;
+}
+.EditProfile input{
+      outline: none;
+      height: 36px;
+}
